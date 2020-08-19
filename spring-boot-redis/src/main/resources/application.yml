@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+
+spring:
+  redis:
+    # redis 服务器地址
+    host: localhost
+    # redis 服务器连接端口
+    port: 6379
+    # redis服务器连接密码，默认无密码
+    password:
+    lettuce:
+      pool:
+        # redis最大连接数，默认为8
+        max-active: 100
+        # redis最大阻塞等待时间默认为-1
+        max-wait: PT10S
+        # redis最大空闲连接数，默认为8
+        max-idle: 30
+        # redis最小空闲连接数，默认为0
+        min-idle: 1
+    # redis数据库连接超时时间
+    timeout: PT10S
+    # redis数据库索引，默认为0
+    database: 6
+
