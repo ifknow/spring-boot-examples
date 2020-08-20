@@ -6,7 +6,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @Author: GongShiYong <br>
+ * @Author: ifknow <br>
  * @Date: 2020/8/20  11:37 <br>
  * @Description: 用户信息Controller
  */
