@@ -11,6 +11,7 @@
 - [spring-boot-mybatis](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-mybatis)：SpringBoot中使用tk-mybatis操作数据库
 - [spring-boot-banner](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-banner)：SpringBoot中支持自定义启动LOGO
 - [spring-boot-swagger](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-swagger)：SpringBoot使用swagger作为接口文档
+- [spring-boot-logback](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-logback)：SpringBoot使用logback作为日志输出
 
 
 
