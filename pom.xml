@@ -16,6 +16,7 @@
         <module>tk-mybatis-generator</module>
         <module>spring-boot-mybatis</module>
         <module>spring-boot-banner</module>
+        <module>spring-boot-swagger</module>
     </modules>
 
     <build>
