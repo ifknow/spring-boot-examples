@@ -15,6 +15,7 @@
         <module>spring-boot-scheduler</module>
         <module>tk-mybatis-generator</module>
         <module>spring-boot-mybatis</module>
+        <module>spring-boot-banner</module>
     </modules>
 
     <build>
