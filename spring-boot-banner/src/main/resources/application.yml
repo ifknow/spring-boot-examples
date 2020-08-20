@@ -1,23 +1,23 @@
 server:
   # 指定web端口号
   port: 8081
-spring:
-  main:
-    # banner-mode有三种模式：console-打印在控制台，log-以日志输出，off-关闭
-    banner-mode: console
-  banner:
-    # 指定文本banner字符编码
-    charset: utf-8
-    # 指定文本banner路径
-    location: classpath:banner.txt
-    image:
-      # 指定图像banner路径
-      location: banner.gif
-      # 指定图像banner宽度
-      width: 76
-      # 指定图像banner高度
-      height:
-      # 指定图像banner距离左边界字符数
-      margin: 2
-      # 指定图像banner是否转换为黑色控制台主题
-      invert: false
+#spring:
+#  main:
+#    # banner-mode有三种模式：console-打印在控制台，log-以日志输出，off-关闭
+#    banner-mode: console
+#  banner:
+#    # 指定文本banner字符编码
+#    charset: utf-8
+#    # 指定文本banner路径
+#    location: classpath:banner.txt
+#    image:
+#      # 指定图像banner路径
+#      location: banner.gif
+#      # 指定图像banner宽度
+#      width: 76
+#      # 指定图像banner高度
+#      height:
+#      # 指定图像banner距离左边界字符数
+#      margin: 2
+#      # 指定图像banner是否转换为黑色控制台主题
+#      invert: false
