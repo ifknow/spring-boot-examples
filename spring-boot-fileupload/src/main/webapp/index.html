@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<style>
+    .box {
+        height: 30px;
+        width: 200px;
+        border: 1px solid green;
+        margin-top: 30px;
+    }
+
+    article {
+        height: 100%;
+        width: 0;
+        background: palegreen;
+    }
+</style>
+<body>
+<input type="file" id="file">
+<div class="box">
+    <article class="cont"></article>
+</div>
+<a id="back" href="#">##</a>
+</body>
+<script>
+    function uploadImg(fileInfo) {
+        const data = new FormData();
+        data.append('file', fileInfo)
+        return new Promise((reslove, reject) => {
+            $.ajax({
+                type: 'post',
+                url: '/file/upload',
+                data,
+                processData: false,
+                contentType: false,
+                xhr() {
+                    const myXhr = $.ajaxSettings.xhr();
+                    myXhr.upload.addEventListener('progress', (e) => {
+                        console.log(e.loaded, e.total)
+                        document.querySelector('.cont').style.width = `${(e.loaded / e.total) * 100}%`
+                    })
+                    return myXhr
+                },
+                success(data) {
+                    console.log(data.url)
+                    $("#back").attr("href", "http://localhost:8080" + data.url)
+                    $("#back").text(data.newName)
+                },
+                error() {
+                }
+            })
+        })
+    }
+
+    const file = document.querySelector('#file');
+    file.onchange = function (e) {
+        document.querySelector('.cont').style.width = '0px'
+        const files = e.target.files;
+        [...files].forEach((res) => {
+            uploadImg(res).then((res) => {
+            }, (err) => {
+            })
+        })
+    }
+</script>
+</html>

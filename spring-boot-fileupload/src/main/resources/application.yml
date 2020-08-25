@@ -1,0 +1,14 @@
+server:
+  port: 8081
+# 文件上传路径配置
+my:
+  uploadFile:
+    uploadPath: C:\softInstall\Tomcat 8.5\webapps\fileupload\
+    readPath: \fileupload\
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 0
+      max-file-size: 200MB
+      max-request-size: 200MB
