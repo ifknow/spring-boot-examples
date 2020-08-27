@@ -1,0 +1,10 @@
+logging:
+  level: debug
+
+server:
+  port: 8081
+
+shiro:
+  loginUrl: "login.html"
+  unauthorizedUrl: "fail.html"
+

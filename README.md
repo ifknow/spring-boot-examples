@@ -13,11 +13,11 @@
 - [spring-boot-swagger](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-swagger)：SpringBoot使用swagger作为接口文档
 - [spring-boot-logback](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-logback)：SpringBoot使用logback作为日志输出
 - [spring-boot-fileupload](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-fileupload)：SpringBoot实现文件上传操作
+- [spring-boot-shiro](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-shiro)：SpringBoot继承jwt、shiro实现用户登录
 
 
 
 ## 2、学习文章
-
 
 - [linux下如何部署SpringBoot项目](http://gongshiyong.online/article/5)
 - [Git简介和入门使用](http://gongshiyong.online/article/6)
@@ -30,6 +30,7 @@
 - [SpringBoot（六）如何在SpringBoot启动时看到自己的logo？](http://gongshiyong.online/article/13)
 - [SpringBoot（七）在SpringBoot中集成swagger2](http://gongshiyong.online/article/14)
 - [SpringBoot（八）SpringBoot实现文件上传操作](http://gongshiyong.online/article/15)
+- [SpringBoot（九）SpringBoot继承jwt、shiro实现用户登录](http://gongshiyong.online/article/16)
 
 
 ## 3、个人博客
