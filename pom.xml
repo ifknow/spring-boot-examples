@@ -19,6 +19,9 @@
         <module>spring-boot-swagger</module>
         <module>spring-boot-logback</module>
         <module>spring-boot-fileupload</module>
+        <module>spring-boot-shiro</module>
+        <module>netty-helloworld</module>
+        <module>aliyun-sdk-message-send</module>
     </modules>
 
     <build>
