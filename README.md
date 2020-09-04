@@ -44,6 +44,6 @@
 
 [掘金](https://juejin.im/user/1521379825420973/posts)
 
-如果您有什么问题或者建议，可以以 [issues](https://github.com/ifknow/spring-boot-examples/issues) 的方式给我反馈，或者邮箱联系：shiyongjava@163.com，看到就会回复。
+如果您有什么问题或者建议，可以以 [issues](https://github.com/ifknow/spring-boot-examples/issues) 的方式给我反馈，或者邮箱联系：shiyongjava@163.com !
 
 欢迎收藏和Star！
