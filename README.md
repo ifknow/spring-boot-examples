@@ -14,7 +14,7 @@
 - [spring-boot-logback](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-logback)：SpringBoot使用logback作为日志输出
 - [spring-boot-fileupload](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-fileupload)：SpringBoot实现文件上传操作
 - [spring-boot-fileupload](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-fileupload)：SpringBoot实现文件上传操作
-<!--- [spring-boot-shiro](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-shiro)：SpringBoot继承jwt、shiro实现用户登录-->
+- [spring-boot-shiro](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-shiro)：SpringBoot实现用户登录验证
 - [netty-helloworld](https://github.com/ifknow/spring-boot-examples/tree/master/netty-helloworld)：netty简介
 
 
@@ -38,7 +38,7 @@
 
 ## 3、个人博客
 
-[ifknow-个人博客](http://www.gongshiyong.online)
+[ifknow-个人博客](https://gongshiyong.online)
 
 [CSDN](https://blog.csdn.net/qq_41373681)
 
