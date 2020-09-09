@@ -12,7 +12,6 @@
 - [spring-boot-swagger](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-swagger)：SpringBoot使用swagger作为接口文档
 - [spring-boot-logback](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-logback)：SpringBoot使用logback作为日志输出
 - [spring-boot-fileupload](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-fileupload)：SpringBoot实现文件上传操作
-- [spring-boot-fileupload](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-fileupload)：SpringBoot实现文件上传操作
 - [spring-boot-shiro](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-shiro)：SpringBoot实现用户登录验证
 - [netty-helloworld](https://github.com/ifknow/spring-boot-examples/tree/master/netty-helloworld)：netty简介
 - [spring-boot-docker](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-docker)：在docker中部署springboot项目（jar and war）
