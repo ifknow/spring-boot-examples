@@ -64,11 +64,11 @@
 
 ## 3、个人博客
 
-[ifknow-个人博客](https://gongshiyong.online)
+[ifknow-个人博客](https://gongshiyong.online) - 博客首发
 
-[CSDN](https://blog.csdn.net/qq_41373681)
+[CSDN](https://blog.csdn.net/qq_41373681) - 同步个人博客
 
-[掘金](https://juejin.im/user/1521379825420973/posts)
+[掘金](https://juejin.im/user/1521379825420973/posts) - 同步个人博客
 
 如果您有什么问题或者建议，可以以 [issues](https://github.com/ifknow/spring-boot-examples/issues) 的方式给我反馈，或者邮箱联系：shiyongjava@163.com !
 
