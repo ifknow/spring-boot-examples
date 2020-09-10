@@ -52,7 +52,9 @@
 
 - [Redis 面试全攻略、面试题大集合](https://gongshiyong.online/2020/09/09/redis-interview)
 
+### Nginx系列
 
+- [nginx简介和使用](https://gongshiyong.online/2020/09/10/nginx-description)
 
 
 ### 建站技巧分享
