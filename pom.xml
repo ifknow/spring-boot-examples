@@ -23,6 +23,8 @@
         <module>netty-helloworld</module>
         <module>aliyun-sdk-message-send</module>
         <module>spring-boot-docker</module>
+        <module>spring-boot-profile-reading</module>
+        <module>spring-boot-transaction</module>
     </modules>
 
     <build>

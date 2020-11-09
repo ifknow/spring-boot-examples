@@ -1,0 +1,46 @@
+server:
+  port: 8070
+spring:
+  datasource:   # \u6570\u636E\u6E90\u76F8\u5173\u914D\u7F6E
+    url: jdbc:mysql://localhost:3306/ifknow?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver          # mysql\u9A71\u52A8
+    type: com.zaxxer.hikari.HikariDataSource          # \u6570\u636E\u6E90\u7C7B\u578B\uFF1AHikariCP
+    hikari:
+      connection-timeout: 30000                       # \u7B49\u5F85\u8FDE\u63A5\u6C60\u5206\u914D\u8FDE\u63A5\u7684\u6700\u5927\u65F6\u957F\uFF08\u6BEB\u79D2\uFF09\uFF0C\u8D85\u8FC7\u8FD9\u4E2A\u65F6\u957F\u8FD8\u6CA1\u53EF\u7528\u7684\u8FDE\u63A5\u5219\u53D1\u751FSQLException\uFF0C \u9ED8\u8BA4:30\u79D2
+      minimum-idle: 5                                 # \u6700\u5C0F\u8FDE\u63A5\u6570
+      maximum-pool-size: 15                           # \u6700\u5927\u8FDE\u63A5\u6570
+      auto-commit: true                               # \u81EA\u52A8\u63D0\u4EA4
+      idle-timeout: 600000                            # \u8FDE\u63A5\u8D85\u65F6\u7684\u6700\u5927\u65F6\u957F\uFF08\u6BEB\u79D2\uFF09\uFF0C\u8D85\u65F6\u5219\u88AB\u91CA\u653E\uFF08retired\uFF09\uFF0C\u9ED8\u8BA4:10\u5206\u949F
+      pool-name: DateSourceHikariCP                   # \u8FDE\u63A5\u6C60\u540D\u5B57
+      max-lifetime: 1800000                           # \u8FDE\u63A5\u7684\u751F\u547D\u65F6\u957F\uFF08\u6BEB\u79D2\uFF09\uFF0C\u8D85\u65F6\u800C\u4E14\u6CA1\u88AB\u4F7F\u7528\u5219\u88AB\u91CA\u653E\uFF08retired\uFF09\uFF0C\u9ED8\u8BA4:30\u5206\u949F 1800000ms
+      connection-test-query: SELECT 1
+
+  profiles:
+
+############################################################
+#
+# mybatis \u914D\u7F6E
+#
+############################################################
+mybatis:
+  type-aliases-package: com.ifknow.pojo          # \u6240\u6709POJO\u7C7B\u6240\u5728\u5305\u8DEF\u5F84
+  mapper-locations: classpath:mapper/*.xml,mapper/*/*.xml      # mapper\u6620\u5C04\u6587\u4EF6
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+############################################################
+#
+# mybatis mapper \u914D\u7F6E
+#
+############################################################
+# \u901A\u7528 Mapper \u914D\u7F6E
+mapper:
+  mappers: com.ifknow.my.MyMapper
+  not-empty: false       #\u5728\u8FDB\u884C\u6570\u636E\u5E93\u64CD\u4F5C\u7684\u65F6\u5019\uFF0C\u5224\u65AD\u8868\u8FBE\u5F0F username !=null,\u662F\u5426\u8FFD\u52A0 username!=''
+  identity: MYSQL
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: logs

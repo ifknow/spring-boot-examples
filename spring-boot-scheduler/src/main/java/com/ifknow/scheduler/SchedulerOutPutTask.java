@@ -12,7 +12,7 @@ import java.util.Date;
  */
 @Component
 public class SchedulerOutPutTask {
-    @Scheduled(cron = "*/5 * * * * ?")
+    @Scheduled(cron = "0/10 * * * * *")
     public void schedulerOutPutTask() {
         System.out.println(new Date());
     }

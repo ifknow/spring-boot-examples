@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8070
 spring:
   datasource:   # 数据源相关配置
     url: jdbc:mysql://localhost:3306/ifknow?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true

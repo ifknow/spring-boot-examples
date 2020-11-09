@@ -15,6 +15,7 @@
 - [spring-boot-shiro](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-shiro)：SpringBoot实现用户登录验证
 - [netty-helloworld](https://github.com/ifknow/spring-boot-examples/tree/master/netty-helloworld)：netty简介
 - [spring-boot-docker](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-docker)：在docker中部署springboot项目（jar and war）
+- [spring-boot-transaction](https://github.com/ifknow/spring-boot-examples/tree/master/spring-boot-transaction)：AOP 应用实例及事务简单理解
 
 
 
@@ -30,6 +31,7 @@
 - [SpringBoot（六）如何在SpringBoot启动时看到自己的logo？](https://gongshiyong.online/2020/08/29/springboot-banner/)
 - [SpringBoot（七）在SpringBoot中集成swagger2](https://gongshiyong.online/2020/08/29/springboot-swagger2/)
 - [SpringBoot（八）SpringBoot实现文件上传操作](https://gongshiyong.online/2020/08/29/springboot-fileupload/)
+- [SpringBoot（九）AOP 应用实例及事务简单理解](https://gongshiyong.online/2020/11/11/spring-boot-transaction/)
 
 ### Git系列
 

@@ -1,0 +1,6 @@
+server:
+  port: 8083
+my:
+  properties:
+    username: ifknow
+    email: shiyongjava@163.com
